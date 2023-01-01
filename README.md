@@ -7,8 +7,12 @@ Testes de reconhecimento facial
 
 >Ferramentas utilizadas:
 1) [OpenCv](https://pypi.org/project/opencv-python/);
-2) [Media Pipe](https://pypi.org/project/mediapipe/)
+2) [Media Pipe](https://pypi.org/project/mediapipe/);
+3) [Deep Face Detection and Recogniton](https://pypi.org/project/mtcnn/);
+	3.1) [Tensor Flow](https://pypi.org/project/tensorflow/)
 
 >Para que serve cada coisa?
 * OpenCv controla a webcam
 * Media Pipe permite que faça o reconhecimento
+* MTCNN permite o reconhecimento de faces com imagens que já estão salvas
+	* O MTCNN requer o Tensor Flow
