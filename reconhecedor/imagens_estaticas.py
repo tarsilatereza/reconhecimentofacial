@@ -1,9 +1,12 @@
 import cv2
 from mtcnn import MTCNN
-
 detector = MTCNN()
+import os
 
-image = cv2.cvtColor(cv2.imread("/home/tarsila/projetos/reconhecimentofacial/images/tarsila/t1.jpg"), cv2.COLOR_BGR2RGB)
+local = os.listdir('/home/tarsila/projetos/reconhecimentofacial/images/tarsila')
+print(os.path.abspath(local[0]))
+
+image = cv2.cvtColor(cv2.imread(os.listdir(os.path.abspath(local[0]))), cv2.COLOR_BGR2RGB)
 result = detector.detect_faces(image)
 
 # Result is an array with all the bounding boxes detected. We know that for 'ivan.jpg' there is only one.
