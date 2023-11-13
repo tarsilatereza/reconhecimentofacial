@@ -18,3 +18,5 @@ Testes de reconhecimento facial
 * MTCNN permite o reconhecimento de faces com imagens que já estão salvas
 	* O MTCNN requer o Tensor Flow
 * Os para navegar pelas pastas da máquina
+
+Observação: O código possui erros e faltam pastas. Este repositório será recriado :) Por hora, as alterações que são feitas são só testes usando novas ferramentas do ambiente que uso.
