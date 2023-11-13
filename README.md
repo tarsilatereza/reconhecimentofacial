@@ -20,3 +20,7 @@ Testes de reconhecimento facial
 * Os para navegar pelas pastas da máquina
 
 Observação: O código possui erros e faltam pastas. Este repositório será recriado :) Por hora, as alterações que são feitas são só testes usando novas ferramentas do ambiente que uso.
+
+* uso do comando git restore (curso Ada - Santander Coders)
+
+
